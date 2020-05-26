@@ -1,0 +1,14 @@
+@import url(./_norm/intro__list-item_norm.css);
+
+.intro__list-item {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    list-style-type: none;
+}

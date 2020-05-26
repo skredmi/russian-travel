@@ -1,0 +1,12 @@
+.place__website {
+    min-height: 46px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: flex-end;
+}
+
+@media screen and (max-width: 425px) {
+    .place__website {
+        display: none;
+    }
+}
