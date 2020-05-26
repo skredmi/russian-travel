@@ -10,9 +10,3 @@
 @import url(../blocks/place/place.css);
 @import url(../blocks/cover/cover.css);
 @import url(../blocks/footer/footer.css);
-
-* {
-    outline-width: 1px;
-    outline-style: solid;
-    outline-color: green; //или другой удобный цвет
-}
