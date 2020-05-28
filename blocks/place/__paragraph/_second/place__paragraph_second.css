@@ -1,14 +1,14 @@
-.place__paragraph_top {
+.place__paragraph_second {
     grid-column: 2/3;
-    grid-row: 2/3;
+    grid-row: 3/4;
     margin-top: 0;
     margin-bottom: 0;
 }
 
 @media screen and (max-width: 425px) {
-    .place__paragraph_top {
+    .place__paragraph_second {
         grid-column: 1/2;
-        grid-row: 4/5;
+        grid-row: 5/6;
         margin: 0 16px;
     }
 }
