@@ -1,5 +1,5 @@
-@import url(./_first/place__paragraph_first.css);
-@import url(./_second/place__paragraph_second.css);
+@import url(_first/place__paragraph_first.css);
+@import url(_second/place__paragraph_second.css);
 
 .place__paragraph {
     min-height: 120px;

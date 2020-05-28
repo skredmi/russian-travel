@@ -1,4 +1,4 @@
-@import url(./_decor/header__lang-link_decor.css);
+@import url(_decor/header__lang-link_decor.css);
 
 .header__lang-link {
     width: 30px;
