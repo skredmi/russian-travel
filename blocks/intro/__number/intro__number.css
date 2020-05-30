@@ -1,6 +1,5 @@
 .intro__number {
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: normal;
     font-size: 12px;
     line-height: 18px;

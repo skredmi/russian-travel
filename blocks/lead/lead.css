@@ -1,5 +1,6 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__illustration/lead__illustration.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 
@@ -13,14 +14,14 @@
     padding: 0 148px;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .lead {
         max-width: 928px;
         padding: 0 48px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .lead {
         max-width: 768px;
         padding: 0;
@@ -28,7 +29,7 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .lead {
         max-width: 320px;
         padding: 0;

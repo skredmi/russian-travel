@@ -3,8 +3,7 @@
     min-height: 200px;
     margin-top: 0;
     margin-bottom: 32px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
@@ -12,7 +11,7 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .lead__title {
         width: 288px;
         min-height: 88px;

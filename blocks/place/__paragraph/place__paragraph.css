@@ -1,28 +1,15 @@
-@import url(_first/place__paragraph_first.css);
-@import url(_second/place__paragraph_second.css);
-
 .place__paragraph {
-    min-height: 120px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: normal;
     font-size: 18px;
     line-height: 30px;
     color: #FFFFFF;
+    grid-column: 2/3;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
     .place__paragraph {
-        min-height: 104px;
-        font-size: 16px;
-        line-height: 26px;
-    }
-}
-
-@media screen and (max-width: 320px) {
-    .place__paragraph {
-        min-height: 156px;
-        font-size: 16px;
-        line-height: 26px;
+        grid-column: 1/2;
+        margin: 0 16px;
     }
 }

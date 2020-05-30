@@ -8,30 +8,28 @@
     margin: 0 auto;
     padding: 0 48px;
     margin-bottom: 92px;
+    box-sizing: border-box;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .cover {
-        min-width: 1024px;
-        min-height: 480px;
+        max-width: 1024px;
         padding: 0;
         margin-bottom: 88px;
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .cover {
-        min-width: 768px;
-        min-height: 200px;
+        max-width: 768px;
         padding: 0;
         margin-bottom: 64px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .cover {
-        min-width: 320px;
-        min-height: 200px;
+        max-width: 320px;
         padding: 0;
         margin-bottom: 64px;
     }

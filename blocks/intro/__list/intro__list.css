@@ -3,15 +3,22 @@
     min-height: 90px;
     margin-top: 0;
     margin-bottom: 0;
+    font-family: 'Inter', 'Arial', sans-serif;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    color: #FFFFFF;
+    list-style-type: none;
+    padding-left: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .intro__list {
-        width: 720x;
+        width: 720px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .intro__list {
         width: 288px;
     }

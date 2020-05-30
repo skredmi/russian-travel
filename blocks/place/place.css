@@ -4,19 +4,21 @@
 @import url(./__url-heading/place__url-heading.css);
 @import url(./__link/place__link.css);
 @import url(./__paragraph/place__paragraph.css);
+@import url(./__paragraph-item/place__paragraph-item.css);
 
 .place {
     display: grid;
     grid-template-columns: 460px 1fr;
     grid-gap: 48px 40px;
     margin-bottom: 80px;
+    box-sizing: border-box;
 }
 
 .place:last-of-type {
     margin-bottom: 0;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1279px) {
     .place {
         grid-template-columns: 440px 1fr;
         grid-gap: 48px 32px;
@@ -24,7 +26,7 @@
     }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
     .place {
         grid-template-columns: 340px 1fr;
         grid-gap: 48px 28px;
@@ -33,11 +35,10 @@
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .place {
         grid-template-columns: 320px;
         grid-gap: 32px;
         margin-bottom: 48px;
-        max-width: 320px;
     }
 }

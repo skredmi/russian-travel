@@ -3,8 +3,7 @@
     min-height: 72px;
     margin-top: 0;
     margin-bottom: 64px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: normal;
     font-size: 30px;
     line-height: 36px;
@@ -12,16 +11,16 @@
     color: #FFFFFF;
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1023px) {
     .lead__subtitle {
         margin-bottom: 56px;
     }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .lead__subtitle {
         width: 288px;
-        min-width: 40px;
+        min-height: 40px;
         font-size: 16px;
         line-height: 20px;
         margin-bottom: 40px;

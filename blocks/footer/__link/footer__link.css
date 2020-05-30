@@ -1,8 +1,6 @@
 .footer__link {
     min-height: 18px;
-    margin-right: 18px;
-    font-family: 'Inter';
-    font-style: normal;
+    font-family: 'Inter', 'Arial', sans-serif;
     font-weight: normal;
     font-size: 16px;
     line-height: 18px;
@@ -15,20 +13,11 @@
     transition: opacity 0.3s linear;
 }
 
-.footer__link:last-of-type {
-    margin-right: 0;
-}
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 767px) {
     .footer__link {
         min-height: 24px;
-        margin-bottom: 32px;
         font-size: 24px;
         line-height: 24px;
-        margin-right: 0;
     }
-
-    .footer__link:last-of-type {
-        margin-bottom: 0;
-    }
-}
+}   
