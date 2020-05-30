@@ -1,7 +1,8 @@
 .page {
     min-width: 1280px;
     background: #2A2C2F;
-    margin: 0 auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 @media screen and (max-width: 1279px) {
@@ -18,8 +19,12 @@
 
 @media screen and (max-width: 767px) {
     .page {
-        min-width: 320px;
+        min-width: 426px;
     }
 }
 
-   
+@media screen and (max-width: 425px) {
+    .page {
+        min-width: 320px;
+    }
+}

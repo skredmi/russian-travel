@@ -27,6 +27,13 @@
 
 @media screen and (max-width: 767px) {
     .photo-grid__items {
+        grid-template-columns: 350px;
+        grid-gap: 12px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .photo-grid__items {
         grid-template-columns: 288px;
         max-width: 100%;
         grid-gap: 12px;
