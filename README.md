@@ -7,4 +7,5 @@
 * Создана *Nested* файловая структура по БЭМ
 * [Ссылка на проект](https://skredmi.github.io/russian-travel/index.html)
 
+![travel](https://user-images.githubusercontent.com/63904240/209444782-da67526e-8ea6-4df6-8a75-d4aa44a7b2d7.JPG)
 
